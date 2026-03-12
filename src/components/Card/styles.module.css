@@ -1,0 +1,84 @@
+.blog {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+}
+
+.rectangle {
+    align-self: center;
+    width: 60%;
+    margin-top: 2%;
+    padding: 2%;
+    
+    background: var(--gray-800);
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(19, 19, 31, 0.05);
+    transition: transform 0.2s ease, fill 0.2s ease;
+
+}
+
+.rectangle:hover {
+  outline: 1px solid var(--title-text);
+}
+
+.date {
+    display: flex;
+    justify-content: space-between;
+}
+
+.date time {
+    font-family: Inter;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 1.2em;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+    color: var(--text-date);
+}
+
+.likeButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.likeButton svg {
+  transition: transform 0.2s ease, fill 0.2s ease;
+}
+
+.likeButton svg:hover {
+  transform: scale(1.1);
+}
+
+.unliked {
+  stroke: var(--title-text);
+  fill: none;
+}
+
+.liked {
+  stroke: var(--title-text);
+  fill: var(--title-text);
+}
+
+.title {
+    font-family: Space Grotesk;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 1.5em;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin: 10px 0 5px;
+    color: var(--text-default);
+}
+
+.subtitle {
+    font-family: Inter;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 1.3em;
+    line-height: 160%;
+    letter-spacing: 0%;
+    
+    color: var(--title);
+}

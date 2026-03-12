@@ -1,0 +1,58 @@
+:root {
+  --gray-100: #e6e9f0;
+  --gray-200: #cdd3e1;
+  --gray-300: #aab3cc;
+  --gray-400: #555f7d;
+  --gray-500: #454f6a;
+  --gray-600: #363d56;
+  --gray-700: #272f43;
+  --gray-800: #17171A;
+  --gray-900: #0a0f1a;
+
+  --primary-light: #4de7b7;
+  --primary: #0da170;
+  --primary-dark: #065f46;
+
+  --link-color: #10b981;
+  --link-hover: #0b8a60;
+
+  --text-default: #e6e9f0;
+  --text-muted: #aab3cc;
+
+  --disabled: #555f7d;
+  --text-disabled: #aab3cc;
+
+  --blue: #3EA1DB;
+  --blue-dark: #574AE8;
+  --white: #FFF;
+  
+  --title-text: #E07B67;
+  --title: #AFABB6;
+  --text: #FFF;
+  --text-date: #E07B67;
+  
+  --bg: #121214;
+  --linear: #17171A;
+}
+
+:root[data-theme='light'] {
+  --gray-100: #0a0f1a;
+  --gray-200: #181f2e;
+  --gray-300: #272f43;
+  --gray-400: #363d56;
+  --gray-500: #454f6a;
+  --gray-600: #555f7d;
+  --gray-700: #aab3cc;
+  --gray-800: rgb(243, 245, 247);
+  --gray-900: #e6e9f0;
+  
+  --text-default: #0a0f1a;
+  --text-muted: #272f43;
+  --text-date: #0a0f1a;
+
+  --link-color: #0b8a60;
+  --link-hover: #065f46;
+  
+  --bg: #f3f5f7;
+  --linear: linear-gradient(90deg, #574AE8 0%, #3EA1DB 100%);
+}
